@@ -1,0 +1,22 @@
+{
+  "name": "crematorium-find-update",
+  "version": "1.0.0",
+  "description": "finds nearest crematroum location, updates master list with new crematorium names",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ritikaa-21/crematorium-find-update.git"
+  },
+  "author": "ritika",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ritikaa-21/crematorium-find-update/issues"
+  },
+  "homepage": "https://github.com/ritikaa-21/crematorium-find-update#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
