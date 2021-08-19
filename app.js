@@ -5,7 +5,15 @@ var app = express();
 
  
 const result = excelToJson({
-    sourceFile: 'X Y Crematoirums.xlsx'
+    sourceFile: 'X Y Crematoirums.xlsx',
+    header: {
+        rows: 1
+    },
+    columnToKey: {
+        A: 'name',
+        B: 'X',
+        C: 'Y'
+    }
 });
 
 console.log(result);

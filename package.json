@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ritikaa-21/crematorium-find-update#readme",
   "dependencies": {
+    "convert-excel-to-json": "^1.7.0",
     "express": "^4.17.1"
   }
 }
