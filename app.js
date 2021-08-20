@@ -66,7 +66,6 @@ function findClosestCrematorium(x, y) {
 
     //get updated json
     const result = getUpdatedExcel();
-    let found = false;
     let leastDist =
     {
         "name": result["Sheet1"][0].name,
@@ -76,7 +75,6 @@ function findClosestCrematorium(x, y) {
 
     //this method is optimized in a way that the loop exits if in a corner case, an exact match is found with the user entered coordinates, 
     //since there can't be a distance shorter than the exact coordinates
-// && (leastDist.X !== x || leastDist.Y !== y)
     for (let i = 0; i < result["Sheet1"].length && (leastDist.X !== x || leastDist.Y !== y); i++) {
         if (Math.hypot(x - result["Sheet1"][i].X, y - result["Sheet1"][i].Y) < Math.hypot(x - leastDist.X, y - leastDist.Y)) {
             leastDist = result["Sheet1"][i];

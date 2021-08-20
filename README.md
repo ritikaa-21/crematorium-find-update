@@ -25,7 +25,9 @@ PORT : 8080
 
 URL : http://localhost:8080/crematoriums/update
 
-BODY :  {
+BODY : 
+
+{
     "name": "<name string here>",
 
     "X": <x coordinate value here>,
@@ -33,7 +35,9 @@ BODY :  {
     "Y": <y coordinate value here>
 }
 
-EXAMPLE BODY :  {
+EXAMPLE BODY :  
+
+{
     "name": "Ritika",
 
     "X": 100,
