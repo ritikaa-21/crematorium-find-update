@@ -10,7 +10,7 @@ Method : GET
 
 PORT : 8080
 
-URL : http://localhost:8080/crematoriums/<x coordinate value here>&<y coordinate value here>
+URL : http://localhost:8080/crematoriums/<<x coordinate value here>>&<<y coordinate value here>>
 
 EXAMPLE URL :  http://localhost:8080/crematoriums/120&0
 
@@ -46,7 +46,7 @@ EXAMPLE BODY :
     "X": 100,
 
     "Y": 100
-    
+
 }
 
 NOTE : x, y and name values represent user input and can be changed to fetch different responses
