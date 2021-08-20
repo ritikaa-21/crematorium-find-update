@@ -1,1 +1,37 @@
-# crematorium-find-update
+Implementation Using : NodeJs
+
+Assumptions Made : The sheet name in the excel file shared will be "Sheet1"
+
+API structure : Two APIs have been created as mentioned.
+API-1 : 
+Method : GET
+PORT : 8080
+URL : http://localhost:8080/crematoriums/<x coordinate value here>&<y coordinate value here>
+EXAMPLE URL :  http://localhost:8080/crematoriums/120&0
+NOTE : x and y values represent user input and can be changed to fetch different responses
+
+API-2
+Method : POST
+PORT : 8080
+URL : http://localhost:8080/crematoriums/update
+BODY :  {
+    "name": "<name string here>",
+    "X": <x coordinate value here>,
+    "Y": <y coordinate value here>
+}
+EXAMPLE BODY :  {
+    "name": "Ritika",
+    "X": 100,
+    "Y": 100
+}
+NOTE : x, y and name values represent user input and can be changed to fetch different responses
+
+How to run the code : The apis have been created using NodeJs. A pretty common way to test APIs has been used for the same. 
+
+1. The link for the postman collection of the two required APIs is : https://www.getpostman.com/collections/3a9997da6619ff258b2a
+
+2. Open postman, click on import collection, go to link tab, paste the link in point 1 and import collection name "Find and Update Crematoriums"
+
+3. Download or clone the github repo and in the same folder, open a terminal and type "node index.js" to have the server be in running state
+
+4. Use postman to send and receive requests and responses. 
