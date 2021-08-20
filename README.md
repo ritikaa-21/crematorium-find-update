@@ -28,21 +28,25 @@ URL : http://localhost:8080/crematoriums/update
 BODY : 
 
 {
+
     "name": "<name string here>",
 
     "X": <x coordinate value here>,
 
     "Y": <y coordinate value here>
+
 }
 
 EXAMPLE BODY :  
 
 {
+
     "name": "Ritika",
 
     "X": 100,
 
     "Y": 100
+    
 }
 
 NOTE : x, y and name values represent user input and can be changed to fetch different responses
