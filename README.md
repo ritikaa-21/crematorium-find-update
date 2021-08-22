@@ -16,6 +16,15 @@ EXAMPLE URL :  http://localhost:8080/crematoriums/120&0
 
 NOTE : x and y values represent user input and can be changed to fetch different responses
 
+{
+
+Still learning and reading about cloud run, was able to follow along the steps and deploy this on cloud run. 
+
+This is the final URL : https://crematoriums-fmw6ob6v5q-pd.a.run.app/crematoriums/{x value here}&{y value here}
+
+I am still learning more and understanding this vast topic!
+
+}
 
 API-2
 
