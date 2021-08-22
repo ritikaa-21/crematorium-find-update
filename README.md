@@ -16,14 +16,6 @@ EXAMPLE URL :  http://localhost:8080/crematoriums/120&0
 
 NOTE : x and y values represent user input and can be changed to fetch different responses
 
-FOR ADDED BONUS : 
-
-Still learning and reading about cloud run, was able to follow along the steps and deploy this on cloud run. 
-
-This is the final URL : https://crematoriums-fmw6ob6v5q-pd.a.run.app/crematoriums/{add x value here}&{add y value here}
-
-I am still learning more and understanding this vast topic!
-
 
 API-2
 
@@ -68,3 +60,16 @@ How to run the code : The apis have been created using NodeJs. Postman is used t
 3. Download or clone the github repo locally and in the same folder, open a terminal and type "node app.js" to have the server be in running state
 
 4. Use postman to send and receive requests and responses. 
+
+
+FOR ADDED BONUS : 
+
+Still learning and reading about cloud run, was able to follow along the steps and deploy this on cloud run. 
+
+This is the final URL : https://crematoriums-fmw6ob6v5q-pd.a.run.app/
+
+FIRST API URL : https://crematoriums-fmw6ob6v5q-pd.a.run.app/crematoriums/ {add x value here}&{add y value here}
+
+SECOND API URL : https://crematoriums-fmw6ob6v5q-pd.a.run.app/update
+
+I am still learning more and understanding this vast topic!
